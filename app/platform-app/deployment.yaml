@@ -12,6 +12,8 @@ spec:
       labels:
         app: platform-app
     spec:
+      imagePullSecrets:
+        - name: ghcr-secret
       containers:
         - name: app
           image: ghcr.io/dhia-03/platform-project:eb38ddeba9258478d2540f320c502cf63aef5952
