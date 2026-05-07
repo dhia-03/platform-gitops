@@ -19,6 +19,10 @@ spec:
       containers:
         - name: app
           image: ghcr.io/dhia-03/platform-project:6d6a9a5fc5ad499545ea5afaafed577d79db288b
+
+          # ✅ FIX for CKV_K8S_15
+          imagePullPolicy: Always
+
           ports:
             - containerPort: 5000
 
