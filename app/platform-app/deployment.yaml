@@ -16,6 +16,6 @@ spec:
         - name: ghcr-secret
       containers:
         - name: app
-          image: ghcr.io/dhia-03/platform-project:844ba77dff63f76c495544ce990cbf0cc7377469
+          image: ghcr.io/dhia-03/platform-project:6d6a9a5fc5ad499545ea5afaafed577d79db288b
           ports:
             - containerPort: 5000
