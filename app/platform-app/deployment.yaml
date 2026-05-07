@@ -14,6 +14,6 @@ spec:
     spec:
       containers:
         - name: app
-          image: ghcr.io/dhia-03/platform-project:latest
+          image: ghcr.io/dhia-03/platform-project:769f9a0dba1452cef55debb6a3eacc7430cc0b50
           ports:
             - containerPort: 5000
