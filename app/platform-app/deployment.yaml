@@ -24,7 +24,7 @@ spec:
 
       containers:
         - name: app
-          image: ghcr.io/dhia-03/platform-project:5c94e8f81d69cb6913b71930e8d9cf02caef2c6a
+          image: ghcr.io/dhia-03/platform-project:82ab21a6d953f26bc5ba666f0e7163003ef5ac7c
           imagePullPolicy: Always
 
           ports:
